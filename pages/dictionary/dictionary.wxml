@@ -1,0 +1,17 @@
+<!--pages/dictionary/dictionary.wxml-->
+<view class="container">
+
+  <view class='content'>
+    <text class="translation">当前已学单词个数：{{number}}</text>
+  </view>
+
+  <view class='content'>
+    <text class="translation">中文释义：{{chinaword}}</text>
+  </view>
+
+  <view class='button-sp-area'>
+    <button class="weui-btn" type="primary" id='refresh' bindtap='onloadChange'>下一个</button>
+    <button class="weui-btn" type="primary" bindtap='onPeep'>查看提示</button>
+  </view>
+
+</view>

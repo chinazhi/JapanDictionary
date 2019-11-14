@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/dictionary/dictionary",
+    "pages/review/review"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#455A64",
+    "navigationBarBackgroundColor": "#455A64",
+    "navigationBarTitleText": "日语词汇宝典",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/images/study1.png",
+        "selectedIconPath": "pages/images/study2.png",
+        "text": "日语学习"
+      },
+      {
+        "pagePath": "pages/review/review",
+        "iconPath": "pages/images/review1.png",
+        "selectedIconPath": "pages/images/review2.png",
+        "text": "日语复习"
+      },
+      {
+        "pagePath": "pages/review/review",
+        "iconPath": "pages/images/user1.png",
+        "selectedIconPath": "pages/images/user2.png",
+        "text": "用户登录"
+      }
+
+    ]
+  }
+}

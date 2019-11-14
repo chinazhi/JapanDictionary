@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='header'>
+    <image src='https://home.zhigege.club/wechat/timg.gif'></image>
+  </view>
+  <!--view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">点击登录</button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view-->
+  <view class='menu'>
+    <button class="weui-btn" type="primary" bindtap='tapDictionary'>日语词汇学习</button>
+  </view>
+
+</view>
