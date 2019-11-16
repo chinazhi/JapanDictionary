@@ -1,2 +1,2 @@
-# zDictioanry
-小程序字典
+# JapanDictionary
+日语词典小程序
